@@ -74,6 +74,7 @@ header .container {
 }
 .header-list {
   display: flex;
+  align-items: center;
 }
 .header-list > li:not(:last-child) {
   margin-right: 50px;
