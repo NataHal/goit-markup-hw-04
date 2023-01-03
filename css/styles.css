@@ -169,8 +169,15 @@ header .container {
 .features-items {
   width: 270px;
 }
-.features-soc-icon {
+.features-soc {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background: #f5f4fa;
+  border-radius: 4px;
   margin-bottom: 30px;
+}
+.features-soc-icon {
 }
 .features-title {
   font-size: 14px;
@@ -283,7 +290,8 @@ header .container {
   align-items: center;
   fill: #afb1b8;
 }
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #2196f3;
   color: #ffffff;
   fill: #ffffff;
@@ -331,7 +339,8 @@ header .container {
 .clients-items:not(:last-child) {
   margin-right: 30px;
 }
-.clients-item-logo:hover {
+.clients-item-logo:hover,
+.clients-item-logo:focus {
   fill: #2196f3;
   border-color: #2196f3;
 }
@@ -518,7 +527,8 @@ header .container {
   align-items: center;
   color: #ffffff;
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
