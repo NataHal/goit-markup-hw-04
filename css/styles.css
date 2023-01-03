@@ -298,9 +298,7 @@ header .container {
   padding: 94px 0;
   background-color: #ffffff;
 }
-/*.team > .container {
-  width: 1170px;
-}*/
+
 .clients-title {
   font-size: 36px;
   line-height: 1.17;
@@ -436,6 +434,7 @@ header .container {
 }
 .footer-wrapper {
   display: flex;
+  align-items: baseline;
 }
 .footer-contacts {
   display: inline-block;
@@ -484,7 +483,7 @@ header .container {
 .footer-soc {
   display: inline-block;
   justify-content: calc(50%);
-  align-items: baseline;
+  align-items: center;
 }
 .footer-title {
   font-style: normal;
@@ -500,7 +499,7 @@ header .container {
 .footer-soc-list {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 .footer-soc-items {
   width: 44px;
